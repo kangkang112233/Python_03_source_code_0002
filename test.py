@@ -1,23 +1,16 @@
-seq = [0, 4, 1, 2, 3, 5]
-rev_seq = reversed(seq)  # リストを逆順にする
-# リストを逆順にする
-
-print(rev_seq)
-# リスト型ではなく、専用のイテレーターが返ってくる
-
-
-print(type(rev_seq))
-# タイプを確認
+def multiplier():
+    num = 1
+    while True:
+        yield num
+        num *= 2
 
 
-list(rev_seq)
-# リストに変換して出力
-[5, 3, 2, 1, 4, 0]
-
-list(rev_seq)
-# rev_seqはイテレータなので2回目は空リストとなる
-[]
-print()
-seq
-# もとのデータは変更されていない
-[0, 4, 1, 2, 3, 5]
+gen = multiplier()
+print(next(gen))  # 输出 1
+print(next(gen))  # 输出 2
+print(next(gen))  # 输出 4
+print(next(gen))  # 输出 8
+print(next(gen))  # 输出 8
+print(next(gen))  # 输出 8
+print(next(gen))  # 输出 8
+print(next(gen))  # 输出 8
