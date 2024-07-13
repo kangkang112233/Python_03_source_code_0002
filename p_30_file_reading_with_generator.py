@@ -18,7 +18,8 @@ def process_books(file_path):
 
 
 # Example usage
-file_path = "D:\\2024-01-29-0008_sort_by_creation_date\\2024-07-04-2230_Python_03_source_code_0002\\0000_test_books.txt"  # The file should contain book data in "ID, Title, Author" format
+file_path = "D:\\2024-01-29-0008_sort_by_creation_date\\2024-07-04-2230_Python_03_source_code_0002\\0000_test_books.txt"
+# The file should contain book data in "ID, Title, Author" format
 
 # Process and print book data
 process_books(file_path)
