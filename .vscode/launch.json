@@ -4,29 +4,9 @@
     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
-            "type": "java",
-            "name": "MatcherExample",
-            "request": "launch",
-            "mainClass": "MatcherExample",
-            "projectName": "2024-07-04-2230_Python_03_source_code_0002_aa3e0dac"
-        },
-        {
-            "type": "java",
-            "name": "T08AlignUsingChangingComment",
-            "request": "launch",
-            "mainClass": "T08AlignUsingChangingComment",
-            "projectName": "2024-07-04-2230_Python_03_source_code_0002_aa3e0dac"
-        },
-        {
-            "type": "java",
-            "name": "FileProcessor",
-            "request": "launch",
-            "mainClass": "FileProcessor",
-            "projectName": "2024-07-04-2230_Python_03_source_code_0002_aa3e0dac"
-        },
-        {
-            "name": "Python デバッガー: 現在のファイル",
+            "name": "Python: Current File",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
