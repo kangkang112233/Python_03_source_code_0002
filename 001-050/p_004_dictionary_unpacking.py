@@ -21,6 +21,7 @@ print(f"Title: {title}\nAuthor: {author}\nCopies: {copies}\n")
 
 # Unpacking all items
 title_item, author_item, copies_item = book_info.items()
+print(type(title_item))
 print(
     f"Title Item: {title_item}\nAuthor Item: {author_item}\nCopies Item: {copies_item}\n"
 )
