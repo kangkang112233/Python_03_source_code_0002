@@ -1,0 +1,10 @@
+{
+    "title": "Python Programming",
+    "author": "John Doe",
+    "published": 2024,
+    "topics": [
+        "json",
+        "file handling",
+        "examples"
+    ]
+}
